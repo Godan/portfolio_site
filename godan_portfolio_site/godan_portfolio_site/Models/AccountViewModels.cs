@@ -6,7 +6,7 @@ namespace godan_portfolio_site.Models
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
-        [Display(Name = "電子メール")]
+        [Display(Name = "電子メール ")]
         public string Email { get; set; }
     }
 

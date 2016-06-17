@@ -55,7 +55,7 @@ namespace godan_portfolio_site.Models
 
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "パスワード")]
+        [Display(Name = "paswoerd")]
         public string Password { get; set; }
 
         [Display(Name = "このアカウントを記憶する")]
